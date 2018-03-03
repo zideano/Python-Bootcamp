@@ -18,7 +18,7 @@ class StringManipulation:
             result = [] * len(name)
             found = False
 
-        except TypeError as e:
+        except Exception as e:
             print('Input has to be a string: {}'.format(e))
 
         for i, v in enumerate(lowercase_string):
